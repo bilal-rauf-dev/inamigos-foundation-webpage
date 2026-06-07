@@ -16,7 +16,7 @@ This webpage spreads awareness about InAmigos Foundation and its initiatives by 
 - **Gallery** – Visual moments from field activities and events
 - **Call to Action** – Donate, Volunteer, and Get Involved sections
 
-## 🛠️ Built With
+## Built With
 
 - HTML5
 - CSS3 (Flexbox, CSS Grid, custom properties)
@@ -30,14 +30,6 @@ inamigos-foundation-webpage/
 ├── styles.css
 └── README.md
 ```
-
-## Deploying on Vercel
-
-1. Push this repository to GitHub
-2. Go to [vercel.com](https://vercel.com) and sign in with GitHub
-3. Click **Add New Project** → select this repository
-4. Leave all settings as default and click **Deploy**
-5. Your site will be live in seconds ✅
 
 ## Resources
 
