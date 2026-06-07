@@ -4,7 +4,7 @@ A responsive awareness webpage for **InAmigos Foundation**, a Section 8 register
 
 ## Live Demo
 
-Deployed on Vercel: _WIP_
+Deployed on Vercel: _https://inamigos-foundation-webpage.vercel.app/_
 
 ## About the Project
 
