@@ -37,54 +37,6 @@ A complete, polished, multi-page website for InAmigos Foundation built with plai
 
 Open `index.html` in any browser — no server, no install needed. All paths are relative and work both locally and on Vercel.
 
----
-
-## Deploying to Vercel
-
-The site is already connected to Vercel via GitHub. Push to deploy:
-
-```bash
-git add .
-git commit -m "Your message"
-git push
-```
-
-Vercel auto-deploys from the `main` branch.
-
----
-
-## REQUIRED: Set Up Formspree (Contact & Join Us Forms)
-
-Both `contact.html` and `join-us.html` use [Formspree](https://formspree.io) for form submissions — no backend needed.
-
-### Steps
-
-1. Go to **[formspree.io](https://formspree.io)** and create a free account.
-2. Click **New Form**, name it (e.g. "InAmigos Contact"). Copy the **Form ID** — 8 chars, e.g. `xpzgkjqr`.
-3. In `contact.html`, find and replace:
-   ```html
-   action="https://formspree.io/f/YOUR_FORM_ID"
-   ```
-   with your real form ID.
-4. Repeat step 2–3 for `join-us.html` (you can use the same form ID or create a second one).
-5. Push to GitHub — Vercel deploys automatically.
-
-> Free plan: 50 submissions/month per form. See formspree.io for paid plans.
-
----
-
-## Post-Launch Checklist
-
-| Task | File |
-|------|------|
-| **Replace Formspree IDs** | `contact.html`, `join-us.html` — search `YOUR_FORM_ID` |
-| Add a favicon | Put `favicon.ico` in `/assets/`, add `<link rel="icon" href="assets/favicon.ico">` to each `<head>` |
-| Replace blog placeholders | Update `blog.html` cards with real post titles, dates, and URLs |
-| Add new gallery images | Add `.gallery-item[data-src][data-caption][data-category]` divs to `gallery.html` |
-| Add upcoming events | Add new `<article class="event-card">` blocks to `events.html` |
-
----
-
 ## Donation Details (Exact)
 
 | Method | Details |
@@ -131,7 +83,3 @@ Both `contact.html` and `join-us.html` use [Formspree](https://formspree.io) for
 - `aria-expanded` on hamburger button
 - `role="dialog"` + `aria-modal` on lightbox
 - Visible `:focus-visible` ring (gold, 3px)
-
----
-
-*Rebuilt June 2026 — plain HTML + CSS + vanilla JS, zero dependencies.*
